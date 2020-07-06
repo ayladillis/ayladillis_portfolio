@@ -5,6 +5,9 @@
  *
  * Made By MaterializeCSS.com
  */
+ body {
+  font-family: 'Lora', serif;
+ }
 
 nav ul a,
 nav .brand-logo {
