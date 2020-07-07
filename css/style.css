@@ -9,6 +9,18 @@
   font-family: 'Lora', serif;
  }
 
+ /* .row-1 {
+  flex-direction: row;
+
+ } */
+
+.home-page {
+  display: block;
+}
+.contact-page {
+  display: none;
+}
+
 nav ul a,
 nav .brand-logo {
   color: #444;
