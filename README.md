@@ -30,15 +30,13 @@ Then open in your preferred text editor:
 - [visual studio code](https://code.visualstudio.com/) 
 
 ## Code Highlight
-
+Here I set up variables for the contact button, the home page and the contact page which are both divs wrapping the entire segment of code making up each page. Then using the event listener click function to change the style of display to 'none' for the home page and 'block' for the contact page. 
 ![Web Screenshot](SC2.png)
-
-
-![Web Screenshot](SC3.png)
-
-
 ![Web Screenshot](SC4.png)
 
+
+I used Materialize CSS to build my portfolio then I added a unique font with Google Font API and added icnons with the Google Icon API. 
+![Web Screenshot](SC3.png)
 
 
 ## Technology
