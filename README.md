@@ -8,6 +8,7 @@ Building my profesional protfolio to become employer ready and competitive, link
 - Deploy Link
 - Getting Started
 - Code Highlights
+- Technology
 - Author 
 
 ## Objective
