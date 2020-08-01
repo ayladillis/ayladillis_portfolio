@@ -1,22 +1,23 @@
 {
-  "name": "Travel-Bucketlist",
+  "name": "Ayla-Dillis",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ayladillis/Travel-Bucketlist.git"
+    "url": "git@github.com:ayladillis/ayladillis_portfolio.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ayladillis/Travel-Bucketlist/issues"
+    "url": "https://github.com/ayladillis/ayladillis_portfolio"
   },
-  "homepage": "https://github.com/ayladillis/Travel-Bucketlist#readme",
+  "homepage": "https://github.com/ayladillis/ayladillis_portfolio#readme", 
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^5.1.0",
