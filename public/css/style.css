@@ -27,5 +27,8 @@ body {
   .page-footer {
       background-color: orange;
   }
-     
+
+  #name {
+    font-size: 1cm;
+}
 
