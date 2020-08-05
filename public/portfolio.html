@@ -1,96 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ayla Dillis</title>
-
-  <!-- CSS  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <div id="particles-js"></div>
 </head>
-<body>
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Ayla Dillis</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="index.html"><button class="waves-effect waves-light btn">Home</button></a></li>
-      </ul>
 
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="#">Projects</a></li>
+<body>
+ 
+  <nav>
+    <div class="nav-wrapper">
+      <a id="name" href="#!" class="brand-logo">Ayla Dillis</a>
+
+      <!-- <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">icon</i></a> -->
+      
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><span class="material-icons md-48">list</span>
+      </a>
+
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href=" ">Contact</a></li>
       </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
   </nav>
 
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="#profile">Profile</a></li>
+    <li><a href="#about-me">About me</a></li>
+    <li><a href=" ">Contact</a></li>
+  </ul>
 
   <div class="row">
-    <div class="col s12 m6">
-      <div class="card">
-        <div class="card-image">
-          <img src="./img/Property Mover Logo.png">
-          <span class="card-title" style="color: black;">Property Mover</span>
-          <a class="btn-floating halfway-fab waves-effect waves-light red" href="https://ayladillis.github.io/Coding-Bootcamp-Project-1-Zillow-Maps-API-AD/" target="_blank"><i class="material-icons">add</i></a>
-        </div>
-        <div class="card-content">
-          <p>A team project two other memebers and I built, Property Mover uses four different APIs to find the commute time between two locations and returns reality listings within the commute time</p>
-        </div>
+    <div class="col s12 m4">
+      <div class="icon-block">
+        <a href=" "><h2 class="center black-text"><i class="material-icons md-36">folder_open</i></h2></a>
+        <h5 class="center">Resume</h5>
+        <!-- <p class="light" style="text-align: center;">Graduating class of 2020 with a Bachelors of Science in Business Adminstration I have began to persue web development and coding.</p> -->
       </div>
     </div>
-  <!-- </div> -->
-
-  <!-- <div class="row"> -->
-    <div class="col s12 m6">
-      <div class="card">
-        <div class="card-image">
-          <img src="./img/planner.jpg">
-          <span class="card-title" style="color: black;">Day Planner</span>
-          <a class="btn-floating halfway-fab waves-effect waves-light red" href="https://ayladillis.github.io/third-party-APIs/" target="_blank"><i class="material-icons">add</i></a>
-        </div>
-        <div class="card-content">
-          <p>A day planner that displays the current date and has input boxes for planning events by the hour as well as stores information in local storage</p>
-        </div>
+    <div class="col s12 m4">
+      <div class="icon-block">
+        <a href="https://github.com/ayladillis"><h2 class="center black-text"><i class="fa fa-github" style="font-size:45px"></i></h2></a>
+        <h5 class="center">Github</h5>
+        <!-- <p class="light" style="text-align: center;">Full stack web developer with credentials from UC Berkeley Extension, over 150 commits to my Github repository and individual as well as team projects</p> -->
       </div>
     </div>
-  </div>
-
-  <div class="row">
-    <div class="col s12 m6">
-      <div class="card">
-        <div class="card-image">
-          <img src="./img/lock.png">
-          <span class="card-title" style="color: black;"> Password Generator</span>
-          <a class="btn-floating halfway-fab waves-effect waves-light red" href="https://ayladillis.github.io/password-generator/" target="_blank"><i class="material-icons">add</i></a>
-        </div>
-        <div class="card-content">
-          <p> This easy to use dinamic password gnerator prompts users to answer a serious of questions about the passwords lenght as well as character makeup
-          </p>
-        </div>
+    <div class="col s12 m4">
+      <div class="icon-block">
+        <a href="https://www.linkedin.com/in/ayladillis/"><h2 class="center black-text"><i class="fa fa-linkedin-square" style="font-size:45px"></i></h2></a>
+        <h5 class="center">Linkedin</h5>
+        <!-- <p class="light"style="text-align: center;">While in business school I balanced work and studying, most recently I worked in a finanicial firm practicing tax accounting</p> -->
       </div>
     </div>
 
-    <div class="col s12 m6">
-      <div class="card">
-        <div class="card-image">
-          <img src="./img/lock.png">
-          <span class="card-title" style="color: black;"> Travel Bucketlist</span>
-          <a class="btn-floating halfway-fab waves-effect waves-light red" href="https://frozen-wildwood-92430.herokuapp.com/" target="_blank"><i class="material-icons">add</i></a>
-        </div>
-        <div class="card-content">
-          <p> I created a Travel Bucketlist app with MySQL, Node, Express, Handlebars and a homemade ORM. Use Node and MySQL to query and route data in my app, and Handlebars to generate the HTML.
-          </p>
-        </div>
-      </div>
-    </div>
   </div>
 
 
+  <div class="row">
+    <div id="profile" class="col s12 m6 l3"><p>
+      <div class="card">
+        <div class="card-image">
+          <img src="./img/Good_readme.png">
+        </div>
+        <div class="card-content">
+          <h6>Readme Generator</h6>
+          <p>Create an open source project that makes a quality README anyone can use, in will include a title, description, table of contents, instillation, usage, license, contributing, tests, questions and at least one badge. </p>
+        </div>
+        <div class="card-action">
+          <a href="https://github.com/ayladillis/Good-README">GitHub</a>
+          <a href="https://ayladillis.github.io/Good-README/">Deployed link</a>
+        </div>
+      </div>
+      </p>
+    </div>
 
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
+    <div class="col s12 m6 l3"><p>
+      <div class="card">
+        <div class="card-image">
+          <img src="./img/employee_summary.png">
+        </div>
+        <div class="card-content">
+          <h6>Employee Summary</h6>
+          <p>The application will prompt the user for information about the team manager and then information about the team members. The user can input any number of team members, and they may be a mix of engineers and interns.</p>
+        </div>
+        <div class="card-action">
+          <a href="https://github.com/ayladillis/employee_summary">GitHub</a>
+          <a href="https://ayladillis.github.io/employee_summary/">Deployed Link</a>
+        </div>
+      </div>
+      </p>
+    </div>
+    </p>
 
-  </body>
+    <div class="col s12 m6 l3"><p>
+      <div class="card">
+        <div class="card-image">
+          <img src="./img/property_mover.png">
+        </div>
+        <div class="card-content">
+          <h6>Property Mover</h6>
+          <p>Property Mover takes in an address that the user wants to map from as well as the maximum time they want to commute (by car) and how much they want to spend on housing. A map and listing of properties with there commute times is generated.</p>
+        </div>
+        <div class="card-action">
+          <a href="https://github.com/ayladillis/Coding-Bootcamp-Project-1-Zillow-Maps-API-AD">GitHub</a>
+          <a href="https://ayladillis.github.io/Coding-Bootcamp-Project-1-Zillow-Maps-API-AD/">Deployed Link</a>
+        </div>
+      </div>
+      </p>
+    </div>
+    </p>
+
+    <div class="col s12 m6 l3"><p>
+      <div class="card">
+        <div class="card-image">
+          <img src="./img/travel_bucketlist.png">
+          <!-- <span class="card-title" style="color: black;">Travel Bucketlist</span> -->
+        </div>
+        <div class="card-content">
+          <h6>Travel Bucketlist</h6>
+          <p>I created a Travel Bucketlist app with MySQL, Node, Express, Handlebars and a homemade ORM. Use Node and MySQL to query and route data in my app, and Handlebars to generate the HTML.</p>
+        </div>
+        <div class="card-action">
+          <a href="https://github.com/ayladillis/Travel-Bucketlist">GitHub</a>
+          <a href="https://frozen-wildwood-92430.herokuapp.com/">Deployed Link</a>
+        </div>
+      </div>
+      </p>
+    </div>
+    </p>
+  </div>
+
+  <div class="row">
+    <div id="profile" class="col s12 m6 l3"><p>
+      <div class="card">
+        <div class="card-image">
+          <img src="./img/note_taker.png">
+        </div>
+        <div class="card-content">
+          <h6>Note Taker</h6>
+          <p>Create an application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.</p>
+        </div>
+        <div class="card-action">
+          <a href="https://github.com/ayladillis/Note-Taker">GitHub</a>
+          <a href="https://warm-brook-79560.herokuapp.com/">Deployed link</a>
+        </div>
+      </div>
+      </p>
+    </div>
+
+    <div class="col s12 m6 l3"><p>
+      <div class="card">
+        <div class="card-image">
+          <img src="./img/day_planner.png">
+        </div>
+        <div class="card-content">
+          <h6>Day Planner</h6>
+          <p>This app implements JQuery and Javascript to input notes to a 8 hour schedule, a time API to display the current date and uses local stroage to save the data and then pulling it back out when the browser is refreshed. </p>
+        </div>
+        <div class="card-action">
+          <a href="https://github.com/ayladillis/third-party-APIs">GitHub</a>
+          <a href=" ">Deployed Link</a>
+        </div>
+      </div>
+      </p>
+    </div>
+    </p>
+<!-- 
+    <div class="col s12 m6 l3"><p>
+      <div class="card">
+        <div class="card-image">
+          <img src=" ">
+        </div>
+        <div class="card-content">
+          <h6>add more later...</h6>
+          <p> </p>
+        </div>
+        <div class="card-action">
+          <a href=" ">GitHub</a>
+          <a href=" ">Deployed Link</a>
+        </div>
+      </div>
+      </p>
+    </div>
+    </p> -->
+<!-- 
+    <div class="col s12 m6 l3"><p>
+      <div class="card">
+        <div class="card-image">
+          <img src=" ">
+        </div>
+        <div class="card-content">
+          <h6>add more later...</h6>
+          <p> </p>
+        </div>
+        <div class="card-action">
+          <a href=" ">GitHub</a>
+          <a href=" ">Deployed Link</a>
+        </div>
+      </div>
+      </p>
+    </div>
+    </p>
+  </div> -->
+
+
+  <div class="row">
+    <div class="col s12 m4 l2" id="about-me"><p></p></div>
+    <div class="col s12 m4 l8"><p></p>
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="./img/ayla.jpeg">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">About Me
+            <i class="material-icons right">more_vert</i></span>
+          <!-- <p><a href="#">This is a link</a></p> -->
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Bio<i class="material-icons right">close</i></span>
+          <p>        I grew up in Los Osos California, a small city by the beach North of Santa Barbra, from elementary to middle school I was home-schooled,
+            this alternative education style allowed my parents to take me on trips instilling in me a love for travel at a young age. I’ve always been a naturally curious person comfortable getting outside 
+            of my comfort zone, in college I spent a year living abroad in Hong Kong studying business and traveling. The experience was incredibly eye opening, I was able to connect with tons of like minded, 
+            ambitious people who inspired me to work harder for what I wanted. After graduating from San Francisco State University in May of 2020 I went right back to school to learn coding at a UC Berkeley Full 
+            Stack Web Development Bootcamp, I've overcome challenges and become passonate about approaching programming challenges from different angles and collaborating with others to create 
+            meaningful web applications. One of my favorite things about code is the ability to create something out of just an idea!</p>
+        </div>
+      </div>       
+    </div>
+  </div>
+ 
+        
+  
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Lets Talk!</h5>
+          <p class="grey-text text-lighten-4">Contact me over email at aayladillis@gmail.com or by phone (805)-458-8249</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Media</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/aayladillis/?hl=en">Instagram</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://twitter.com/aayladillis">Twitter</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://medium.com/@aayladillis">Medium</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/ayla.dillis/">Facebook</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      © 2020 
+      </div>
+    </div>
+  </footer>
+
+  
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
 </html>
