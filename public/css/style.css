@@ -2,6 +2,20 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+#resume {
+    color: black;
+    margin-left: 44%;
+}
+
+#github {
+    color: black;
+    margin-left: 44%;
+}
+
+#linkedin {
+    color: black;
+    margin-left: 44%;
+}
 
 i.material-icons {
     font-size: 45px;
