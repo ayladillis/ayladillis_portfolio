@@ -1,5 +1,6 @@
 # Portfolio
 Building my profesional protfolio to become employer ready and competitive, links to my Github, Linkedin, Resume, social media and contact information. 
+
 ![Web Screenshot](https://media.giphy.com/media/L12YH9Krpas4s862CX/giphy.gif)
 
 
